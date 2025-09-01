@@ -38,6 +38,7 @@ message TransferAssetContract {
   bytes owner_address = 2;
   bytes to_address = 3;
   int64 amount = 4;
+  int32 permission_id = 5;
 }
 
 message UnfreezeAssetContract {
