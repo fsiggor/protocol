@@ -33,6 +33,7 @@ message TransferContract {
   bytes owner_address = 1;
   bytes to_address = 2;
   int64 amount = 3;
+  int32 Permission_id = 4;
 }
 
 message TransactionBalanceTrace {
